@@ -1,0 +1,62 @@
+/* GLOBAL STYLES */
+
+body {
+	font-family: "Articulat CF", sans-serif;
+	background-color: white;
+}
+
+header {
+	background-color: transparent;
+}
+
+
+/* -----FONTS------ */
+
+h1 {
+	font-family:"BBH Sans Hegarty", sans-serif;
+	font-size: 48px;
+	line-height: 108%;
+	letter-spacing: 3px;
+}
+
+h2 {
+	font-family:"BBH Sans Hegarty", sans-serif;
+	font-size: 36px;
+	line-height: 108%;
+	letter-spacing: 3px;
+
+}
+
+h3 {
+	font-family:"Roboto Condensed", sans-serif;
+	font-size: 40px;
+	line-height: 108%;
+	font-style: black;
+
+}
+
+h4 {
+	font-family:"Roboto Condensed", sans-serif;
+	font-size: 28px;
+	line-height: 108%;
+	font-style: black;
+}
+
+h5 {
+	font-family:"Roboto Condensed", sans-serif;
+	font-size: 18px;
+	line-height: 140%;
+	font-style: bold;
+
+}
+
+p {
+	font-family:"Articulat-CF", sans-serif;
+	font-size: 16px;
+	line-height: 140%;
+	font-style: regular;
+	letter-spacing: 0.4px;
+
+}
+
+

@@ -1,0 +1,116 @@
+
+
+.section-padding {
+	padding: 84px 0px;
+}
+
+.container {
+	display: block;
+	width: 88%;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+
+
+/* ROW */
+
+.row {
+	display: flex;             /* Makes the content run horizontally, instead of vertically */
+	flex-wrap: wrap;           /* Makes the content wrap down if the elements inside are wider than the screen */
+	align-content: stretch;    /* Makes the elements inside grow to the height of the container */
+	margin: 0px -20px;
+}
+
+.row-justify-end {
+	justify-content: flex-end;
+}
+
+.row-justify-center {
+	justify-content: center;
+}
+
+.row-justify-between {
+	justify-content: space-between;
+}
+
+.row-align-end {
+	align-items: flex-end; /* UPDATED */
+}
+
+.row-align-center {
+	align-items: center; /* UPDATED */
+}
+
+
+
+
+/* COLUMN */
+
+.col {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0%;
+	padding: 0px 20px;
+	box-sizing: border-box; /* new property added to reset how  */
+}
+
+.col-lg-1 {
+	flex: 0 0 8.33%;
+	max-width: 8.33%;
+}
+
+.col-lg-2 {
+	flex: 0 0 16.67%;
+	max-width: 16.67%;
+}
+
+.col-lg-3 {
+	flex: 0 0 25%;
+	max-width: 25%;
+}
+
+.col-lg-4 {
+	flex: 0 0 33.33%;
+	max-width: 33.33%;
+}
+
+.col-lg-5 {
+	flex: 0 0 41.67%;
+	max-width: 41.67%;
+}
+
+.col-lg-6 {
+	flex: 0 0 50%;
+	max-width: 50%;
+}
+
+.col-lg-7 {
+	flex: 0 0 58.33%;
+	max-width: 58.33%;
+}
+
+.col-lg-8 {
+	flex: 0 0 66.67%;
+	max-width: 66.67%;
+}
+
+.col-lg-9 {
+	flex: 0 0 75%;
+	max-width: 75%;
+}
+
+.col-lg-10 {
+	flex: 0 0 83.33%;
+	max-width: 83.33%;
+}
+
+.col-lg-11 {
+	flex: 0 0 91.67%;
+	max-width: 91.67%;
+}
+
+.col-lg-12 {
+	flex: 0 0 100%;
+	max-width: 100%;
+}
