@@ -519,6 +519,10 @@ footer li {
 
 }
 
+.arrow-icon-down {
+	transform: rotate(180deg);
+}
+
 .arrow-icon-left {
 	scale: 150%;
 	display: inline-block;
@@ -730,7 +734,7 @@ footer li {
 }
 
 .passes-card {
-	position:relative;
+	position: relative;
 	margin-bottom: 40px;
 	margin-top: 40px;
 	border: 1px solid;
@@ -840,8 +844,8 @@ footer li {
 
 .passes-card-grid{
 	display: grid;
-	grid-template-columns: 375px 375px 375px;
-	gap:40px 40px;
+	grid-template-columns: 375px 375px 375px; 
+	gap:30px 30px;
 }
 
 .price-grid {
