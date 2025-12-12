@@ -1,5 +1,3 @@
-
-
 .section-padding {
 	padding: 84px 0px;
 }
@@ -13,7 +11,7 @@
 	max-width: 1400px;
 	width: 88%;
 	max-width: 1400px;
-	margin: 0 auto ;
+	margin: 0 auto;
 }
 
 .container-fixed-margin {
@@ -27,12 +25,9 @@
 .container-2 {
 	display: block;
 	max-width: 1400px;
-	
 	max-width: 1600px;
 	margin: 0 auto;
 }
-
-
 
 .flex-container {
 	display: flex;
@@ -47,20 +42,15 @@
 	align-items: center;
 	justify-content: start;
 	height: 100vh;
-	max-height:;
-
-	}
+}
 
 .hero-container {
 	position:relative;
+}
 
-	
-	}
 .step-text-container {
-	
 	flex-direction: column;
 	align-items: center;
-
 }
 
 
@@ -71,15 +61,15 @@
 /* ROW */
 
 .row {
-	display: flex;             /* Makes the content run horizontally, instead of vertically */
-	flex-wrap: wrap;           /* Makes the content wrap down if the elements inside are wider than the screen */
-	align-content: stretch;    /* Makes the elements inside grow to the height of the container */
+	display: flex;  
+	flex-wrap: wrap;           
+	align-content: stretch;   
 	margin: 0px -20px;
 }
 
 .row-no-wrap {
-	display: flex;             /* Makes the content run horizontally, instead of vertically */
-	align-content: stretch;    /* Makes the elements inside grow to the height of the container */
+	display: flex;           
+	align-content: stretch;    
 	margin: 0px -20px;
 }
 
@@ -104,21 +94,16 @@
 }
 
 .row-align-end {
-	align-items: flex-end; /* UPDATED */
+	align-items: flex-end;
 }
 
 .row-align-center {
-	align-items: center; /* UPDATED */
+	align-items: center;
 }
 
 .row-align-start {
-	align-items: start; /* UPDATED */
+	align-items: start;
 }
-
-
-
-
-
 
 
 /* COLUMN */
@@ -128,7 +113,7 @@
 	flex-shrink: 1;
 	flex-basis: 0%;
 	padding: 0px 20px;
-	box-sizing: border-box; /* new property added to reset how  */
+	box-sizing: border-box;
 }
 
 .col-lg-1 {
@@ -190,7 +175,6 @@
 	flex: 0 0 100%;
 	max-width: 100%;
 }
-
 
 
 @media screen and (max-width: 478px) {
@@ -256,9 +240,6 @@
 		max-width: 100%;
 	}
 
-
-
-
 	.section-padding {
 		padding: 44px 0px;
 	}
@@ -270,11 +251,6 @@
 	.mobile-footer-padding {
 		padding: 30px 0 30px 30px;
 	}
-
-	
-
-
-
 		
 }/* media ends */
 
